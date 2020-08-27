@@ -13,6 +13,8 @@
 		E800EF7824F1F305004A2A4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E800EF7624F1F305004A2A4C /* Main.storyboard */; };
 		E800EF7A24F1F306004A2A4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E800EF7924F1F306004A2A4C /* Assets.xcassets */; };
 		E800EF7D24F1F306004A2A4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E800EF7B24F1F306004A2A4C /* LaunchScreen.storyboard */; };
+		E800EF8524F1F548004A2A4C /* ReposViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E800EF8424F1F548004A2A4C /* ReposViewController.swift */; };
+		E800EF8724F1F55D004A2A4C /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E800EF8624F1F55D004A2A4C /* RepoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E800EF7924F1F306004A2A4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E800EF7C24F1F306004A2A4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E800EF7E24F1F306004A2A4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E800EF8424F1F548004A2A4C /* ReposViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposViewController.swift; sourceTree = "<group>"; };
+		E800EF8624F1F55D004A2A4C /* RepoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				E800EF7924F1F306004A2A4C /* Assets.xcassets */,
 				E800EF7B24F1F306004A2A4C /* LaunchScreen.storyboard */,
 				E800EF7E24F1F306004A2A4C /* Info.plist */,
+				E800EF8424F1F548004A2A4C /* ReposViewController.swift */,
+				E800EF8624F1F55D004A2A4C /* RepoTableViewCell.swift */,
 			);
 			path = ListaRepos;
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E800EF8524F1F548004A2A4C /* ReposViewController.swift in Sources */,
 				E800EF7524F1F305004A2A4C /* ViewController.swift in Sources */,
 				E800EF7124F1F305004A2A4C /* AppDelegate.swift in Sources */,
+				E800EF8724F1F55D004A2A4C /* RepoTableViewCell.swift in Sources */,
 				E800EF7324F1F305004A2A4C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ListaRepos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ListaRepos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
